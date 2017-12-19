@@ -1,0 +1,580 @@
+/*Mobile Styles*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body
+{
+
+    font-family: 'Oswald', sans-serif;
+  	margin: 0;
+ 	padding: 0;
+
+}
+
+#wrapper
+{
+    margin:0 auto;
+    width:100%;
+    min-width:310px;
+    height:100%;
+    overflow:hidden;
+
+}
+
+#header
+{
+	width: 100%;
+    height: 160px;
+    background-color: #f5f5f5;
+    text-align: center;
+
+}
+
+#leftnav
+{
+
+    visibility: hidden;
+
+}
+
+#rightnav
+{
+
+    visibility: hidden;
+
+}
+
+#logo
+{
+
+    padding-top: 10px;
+
+}
+
+#about-me-wrapper
+{
+
+    width: 100%;
+    height: 100%;
+    background-color: #dbdbdb;
+    font-size: 18px;
+    padding: 0;
+
+}
+
+
+#jamiepic
+{
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-left: 5px;
+    float: left;
+
+}
+
+#about_text
+{
+
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    width: 91%;
+
+}
+
+#abouticons
+{
+
+    visibility: hidden;
+
+} 
+
+.sectiontitle
+{
+
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.articles
+{
+color: rgb(119, 119, 119);
+font-size: 17px;
+/* font-family:'Encode Sans', sans-serif; */
+text-align: center;
+background-color: white;
+/* float: left; */
+display: inline-block;
+width: 373px;
+height: 497px;
+margin-top: 40px;
+margin-left: 50px;
+margin-right: 60px;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.articles img
+{
+   max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+
+
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+.articles:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.articles h2
+{
+
+  color: black;
+
+}
+
+#completedprojects
+{
+	width: 100%;
+    height: 1650px;
+    background-color: #DEEFF5;
+    text-align: center;
+
+}
+
+#completedprojects h1
+{
+
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+#inprogress
+{
+	width: 100%;
+    height: 1650px;
+    background-color: #9edbf0;
+    text-align: center;
+
+}
+
+#inprogress h1
+{
+
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+#meetme
+{
+	width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    background-color: #57c5ea;
+    text-align: center;
+
+}
+
+#meetme h1
+{
+
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+meetme p
+{
+
+
+
+}
+
+#meetmeintro
+{
+
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+
+.socials
+{
+
+    margin-top: 90px;
+    width: 80vw;
+    font-size: 25px;
+    display: inline-block;
+
+}
+
+#contact
+{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(31, 166, 211);
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+#contact h1
+{
+
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+
+#socmedtitle
+{
+
+    margin-top: 30px;
+
+}
+
+#contactsocmed
+{
+
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+#contactsocmed li
+{
+
+    margin-top: 50px;
+
+}
+
+#contactsocmed li a
+{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.contactlink
+{
+
+    font-size: 26px;
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+
+}
+
+#footer
+{
+
+    height: 100px;
+    background-color: #016284;
+    text-align: center;
+
+}
+
+#signature
+{
+
+    color: white;
+
+}
+
+#footerlogo
+{
+
+    padding-top: 20px;
+    height: 60px;
+}
+
+#footernav
+{
+
+    display:none;
+
+}
+
+/*End of mobile styles*/
+/*==========================================================================*/
+
+/*Desktop Styles*/
+
+@media only screen and (min-width: 768px)
+{
+
+    #wrapper
+    {
+        margin:0 auto;
+        width:100%;
+        min-width:310px;
+        height:100%;
+        overflow:hidden;
+
+    }
+
+    #header
+    {
+
+        height: 150px;
+        width: 100%;
+        background-color: white;
+        font-size: 1.68vw;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    #logo
+    {
+    
+        padding-top: 20px;
+        padding-right: 500px;
+        height: 6.1vw;
+    
+    }
+
+    #leftnav li
+    {
+        visibility: visible;
+        float: left;
+        position: relative;
+        top: 70px;
+        left: 80px;
+        margin-left: 80px;
+        font-weight: bold;
+        color: black;
+    
+    }
+
+    #rightnav li
+    {
+        visibility: visible;
+        float: right;
+        position: relative;
+        bottom: 70px;
+        right: 100px;
+        margin-right: 120px;
+        font-weight: bold;
+        color: black;
+    
+    }
+
+    #about-me-wrapper
+    {
+
+        width: 100%;
+        background-color: #dbdbdb;
+        padding-left: 220px;
+        padding-bottom: 0;
+        overflow: hidden;
+
+    }
+
+    .column
+    {
+
+        float: left;
+        width: 50%;
+        height: 100%;
+
+    }
+
+    #jamiepic
+    {
+
+        border-radius: 50%;
+        height: 35vh;
+        margin-top: 10px;
+
+    }
+
+    #personalstatement
+    {
+
+        font-size: 2.5vh;
+        position: relative;
+        width: 55vw;
+        height: 100%;
+        top: 5px;
+        left: 85px;
+
+    }
+
+    #abouticons
+    {
+
+        visibility: visible;
+        position: relative;
+        left: 450px;
+        bottom: 350px;
+        float:right;
+
+    }
+    
+    #abouticons li
+    {
+
+        margin-top: 50px;
+
+    }
+
+    .iconlink
+    {
+
+        font-size: 26px;
+        position: relative;
+        bottom: 15px;
+        left: 50px;
+
+    }
+
+
+
+    #completedprojects
+    {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
+
+    }
+
+    #cpwrapper
+    {
+
+        width: 100%;
+
+    }
+
+    #articlewrapper
+    {
+
+        position: relative;
+        right: 50px;
+
+    }
+
+    .articles
+    {
+    color: rgb(119, 119, 119);
+    font-size: 17px;
+    /* font-family:'Encode Sans', sans-serif; */
+    text-align: center;
+    background-color: white;
+    /* float: left; */
+    display: inline-block;
+    width: 373px;
+    height: 497px;
+    margin-top: 40px;
+    margin-left: 2%;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+
+    #inprogress
+    {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
+
+    }
+
+    #meetme
+    {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+
+    }
+
+    #meetmeintro
+    {
+
+        width: 10 0vw;
+
+    }
+
+    .socials
+    {
+        width: 40vw;
+    }
+
+    #contactsocmed li
+    {
+        display: inline-block;
+        margin: 0px 0px 0px 150px;
+    
+    }
+    
+    #footer
+    {
+
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    #signature
+    {
+    
+        font-size: 18px;
+        padding-top: 36px;
+        padding-left: 30px;
+        color: white;
+        float: left;
+    }
+
+    #footerlogo
+    {
+    
+        padding-left: 450px;
+    
+    }
+    
+    
+    #footernav
+    {
+
+        display: initial;
+        float:right;
+        color: white;
+        margin-top: 35px;
+        margin-right: 100px;
+    
+    }
+    
+    #footernav li
+    {
+        font-size: 18px;
+        display: inline-block;
+        margin-right: 20px;
+    
+    }
+    
+    #footernav a
+    {
+    
+        color: inherit;
+    }
+    
+}
+\ No newline at end of file
